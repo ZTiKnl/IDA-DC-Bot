@@ -1,0 +1,26 @@
+{
+  "name": "ida-distress-call",
+  "version": "0.0.1",
+  "description": "Send a Distress Call to Discord Channel when under attack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTiKnl/IDA-Distress-Call.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot"
+  ],
+  "author": "ZTiKnl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZTiKnl/IDA-Distress-Call/issues"
+  },
+  "homepage": "https://github.com/ZTiKnl/IDA-Distress-Call#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
