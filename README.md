@@ -1,5 +1,4 @@
 # IDA-DC-Bot
-
 Send a Distress Call to Discord Channel when called upon
 
 ## Version  
@@ -13,9 +12,9 @@ Data sent to the IDA-DC-Bot is processed and posted on a dedicated Discord chann
 ## How to use:  
 1. Clone the repo, or download and unzip to to a prefered location  
    (example: `/home/ztiknl/IDA-DC-Bot/`)  
-2. add nginx/apache redirect requests for /api to port 3001
-3. install Node.js and NPM
-4. run `node ./` in /IDA-DC-Bot/ folder
+2. Add nginx/apache redirect requests for /api to port 3001
+3. Install Node.js and NPM
+4. Create a system service that runs `node /locationtofile/`  
 
 ## Disclaimer
 This plugin is still under construction, ~~bugs~~ new features WILL appear unexpectedly.  
