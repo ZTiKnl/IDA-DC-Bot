@@ -1,0 +1,13 @@
+module.exports = {
+   token: function() {
+      return '12345token54321';
+   },
+   channelid: function() {
+	return '12345';
+   },
+   apikeys: function () {
+     let keys = ['54321', 'Banana']
+     return keys;
+   }
+}
+
